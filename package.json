@@ -1,0 +1,10 @@
+{
+  "name": "util-scripts",
+  "version": "0.0.3",
+  "type": "module",          // 支持 ES Modules
+  "bin": {
+    "bump-version": "./bin/cli.js"  // 定义可执行命令
+  },
+  "files": ["bin", "scripts"],  // 发布时包含的目录
+  "dependencies": {}
+}
